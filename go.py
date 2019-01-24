@@ -89,6 +89,25 @@ myhand.append(Card.new('As'))
 myhand.append(Card.new('Kh'))
 myhand.append(Card.new('Qs'))
 
+
+myhand = []
+myhand.append(Card.new('2c'))
+myhand.append(Card.new('3d'))
+myhand.append(Card.new('4s'))
+myhand.append(Card.new('5h'))
+myhand.append(Card.new('6s'))
+
+print('Rank for 22233 is: ', evaluator.evaluate(myhand,[]))
+
+myhand = []
+myhand.append(Card.new('Ac'))
+myhand.append(Card.new('Kd'))
+myhand.append(Card.new('Qs'))
+myhand.append(Card.new('Jh'))
+myhand.append(Card.new('Ts'))
+
+print('Rank for AAAKK is: ', evaluator.evaluate(myhand,[]))
+
 print('Rank for AAAKQ is: ', evaluator.evaluate(myhand,[]))
 
 
