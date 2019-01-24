@@ -17,7 +17,24 @@ myhand.append(Card.new('7s'))
 myhand.append(Card.new('8h'))
 myhand.append(Card.new('9h'))
 
-print('Rank for 56789 is: ', evaluator.evaluate(myhand,[]))
+evaluator = Evaluator()
+myhand = []
+myhand.append(Card.new('Ac'))
+myhand.append(Card.new('6c'))
+myhand.append(Card.new('7c'))
+myhand.append(Card.new('8c'))
+myhand.append(Card.new('9c'))
+
+print('Rank for A6789 suited is: ', evaluator.evaluate(myhand,[]))
+
+myhand = []
+myhand.append(Card.new('5c'))
+myhand.append(Card.new('6c'))
+myhand.append(Card.new('7c'))
+myhand.append(Card.new('8c'))
+myhand.append(Card.new('9c'))
+
+print('Rank for 56789 suited is: ', evaluator.evaluate(myhand,[]))
 
 myhand = []
 myhand.append(Card.new('2c'))
