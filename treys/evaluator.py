@@ -39,9 +39,11 @@ class Evaluator(object):
             pass
         elif game_variant == 'SHORT_DECK':
             # perform SD rank mapping and replace hand_rank
+            pass
         elif game_variant == 'TRITON':
             # PERFORM TRITON rank mapping and replace hand_rank
-        else: 
+            pass
+        else:
             print('Game variant error')
             
         return hand_rank
